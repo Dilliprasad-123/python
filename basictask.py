@@ -57,5 +57,38 @@ print(type(10))
 print(type(10.5))
 print(type(True))   
 
- #  this is task 1
+ """<class 'str'>
+<class 'int'>
+<class 'float'>
+<class 'bool'>
+
+"""
+
+# ========== type conversion========================
+int_num = 10
+print(type(int_num))
+
+float_num = float(int_num)
+print(type(float_num))
+dup_num = int(float_num)
+print(type(dup_num))
+
+
+string_num = str(int_num)
+print(type(string_num))
+dupnum2 = int(string_num)
+print(type(dupnum2))    
+dupmum3 = float(string_num)
+print(type(dupmum3))
+
+
+"""
+<class 'int'>
+<class 'float'>
+<class 'int'>
+<class 'str'>
+<class 'int'>
+<class 'float'>
+"""
+
 
